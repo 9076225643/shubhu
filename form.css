@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gluten', cursive;
+    background-color: gray;
+}
+main{
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+main form{
+    width: 30%;
+    background-color:greenyellow;
+    padding: 20px;
+    border-radius: 5px;
+}
+label,#user,#pass,a{
+    display: block;
+}
+label{
+    font-size: 110%;
+}
+#user,#pass{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+main form #button{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 30%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0px;
+    background-color: rgba(98, 140, 27, 0.847);
+}
+button:hover{
+    background-color: deepskyblue;
+    transition: 5s;
+}
+#button2{
+    background-color: rgba(223, 121, 84, 0.845);
+}
+a{
+    text-decoration: none;
+    color: darkblue;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+#pass::placeholder{
+    color:limegreen;
+}
+.fa-solid.fa-face-kiss-wink-heart{
+    color: yellow;
+    font-size: 50px;
+}
+section{
+    /* display: flex;
+    justify-content:center; */
+    text-align: center;
+}
+#name{
+    position: relative;
+}
+.fa-solid.fa-user-secret{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+#word{
+    position: relative;
+}
+.fa-solid.fa-key{
+    position: absolute;
+    top:0%;
+    left: 0%;
+}
